@@ -4,7 +4,10 @@
              x:Class="FirstMobileApp.Login">
     <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
         <Entry Placeholder="Enter User Name" x:Name="UserName" />
-        <Entry Placeholder="Enter Passowrd" x:Name="Password" />
+        <Entry IsPassword="True" Placeholder="Enter Passowrd" x:Name="Password" />
         <Button Text="Login" Clicked="authenticate" ></Button>
+
+        <!--<Entry Text="This is a read-only Entry" IsReadOnly="true" />
+        <Entry Text="This text will be displayed in uppercase." TextTransform="Uppercase" />-->
     </StackLayout>
 </ContentPage>

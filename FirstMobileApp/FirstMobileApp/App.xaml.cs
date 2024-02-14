@@ -12,7 +12,10 @@ namespace FirstMobileApp
 
             //MainPage = new MainPage();
             //MainPage = new Assignment();
-            MainPage = new Login();
+            //MainPage = new Login();
+            //MainPage = new Slider();
+            //MainPage = new Assignment3();
+            MainPage = new Assignment4();
         }
 
         protected override void OnStart()
