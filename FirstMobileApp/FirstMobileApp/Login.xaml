@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstMobileApp.Login">
+    <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+        <Entry Placeholder="Enter User Name" x:Name="UserName" />
+        <Entry Placeholder="Enter Passowrd" x:Name="Password" />
+        <Button Text="Login" Clicked="authenticate" ></Button>
+    </StackLayout>
+</ContentPage>

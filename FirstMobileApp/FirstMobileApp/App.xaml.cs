@@ -11,7 +11,8 @@ namespace FirstMobileApp
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new Assignment();
+            //MainPage = new Assignment();
+            MainPage = new Login();
         }
 
         protected override void OnStart()
