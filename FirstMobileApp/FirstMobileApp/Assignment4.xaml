@@ -3,9 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FirstMobileApp.Assignment4">
     <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
-        <Label Text="Font Size: 0" x:Name="lblplaceholder"></Label>
-        <Slider Maximum="25" Minimum="10"  ValueChanged="OnSliderValueChanged" />
-        <Label Text="Dynamic font change" x:Name="lblfontchange"></Label>
+        <!--<Label Text="Font Size: 0" x:Name="lblplaceholder"></Label>
+        <Slider Maximum="25" Minimum="10"  ValueChanged="OnSliderValueChanged" x:Name="Slider"/>-->
+        <!--<Label Text="Dynamic font change" x:Name="lblfontchange"></Label>-->
+
+        <Label Text="{Binding Source={x:Reference Slider}, Path=Value, StringFormat='Font Size is {0:F0}'}" x:Name="lblplaceholder"></Label>
+        <Slider Maximum="25" Minimum="10" x:Name="Slider"/>
+        <Label Text="Dynamic font size using slider" FontSize="{Binding Source={x:Reference Slider}, Path=Value}" 
+               x:Name="lblfontchange"></Label>
     </StackLayout>
 
 </ContentPage>

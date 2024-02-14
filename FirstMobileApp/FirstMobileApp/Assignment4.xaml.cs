@@ -17,10 +17,10 @@ namespace FirstMobileApp
             InitializeComponent();
         }
 
-        void OnSliderValueChanged(object sender, ValueChangedEventArgs args)
-        {
-            lblplaceholder.Text = $"Font Size: {args.NewValue}";
-            lblfontchange.FontSize = args.NewValue;
-        }
+        //void OnSliderValueChanged(object sender, ValueChangedEventArgs args)
+        //{
+        //    lblplaceholder.Text = $"Font Size: {args.NewValue}";
+        //    lblfontchange.FontSize = args.NewValue;
+        //}
     }
 }
