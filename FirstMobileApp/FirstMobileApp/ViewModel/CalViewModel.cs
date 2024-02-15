@@ -83,6 +83,8 @@ namespace FirstMobileApp.ViewModel
         }
         public int Div()
         {
+            if (Num2 == 0)
+                return 0;
             return Num1 / Num2;
         }
     }
