@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstMobileApp.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,7 +16,9 @@ namespace FirstMobileApp
             //MainPage = new Login();
             //MainPage = new Slider();
             //MainPage = new Assignment3();
-            MainPage = new Assignment4();
+            //MainPage = new Assignment4();
+            //MainPage = new Calculator();
+            MainPage = new Cal();
         }
 
         protected override void OnStart()

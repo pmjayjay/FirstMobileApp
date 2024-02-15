@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FirstMobileApp.ViewModel"
+             x:Class="FirstMobileApp.Views.Cal">
+    <ContentPage.BindingContext>
+        <local:CalViewModel></local:CalViewModel>
+    </ContentPage.BindingContext>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Entry Placeholder="Enter First number" Text="{Binding Num1}" x:Name="txtNum1"></Entry>
+        <Entry Placeholder="Enter Second number" Text="{Binding Num2}" x:Name="txtNum2"></Entry>
+        <Label Text="{Binding Result}" x:Name="lblResult"></Label>
+        <Button Text="+" Command="{Binding AddCommand}"/>
+        <Button Text="-" Command="{Binding SubCommand}"/>
+        <Button Text="*" Command="{Binding MulCommand}"/>
+        <Button Text="/" Command="{Binding DivCommand}"/>
+    </StackLayout>
+</ContentPage>
