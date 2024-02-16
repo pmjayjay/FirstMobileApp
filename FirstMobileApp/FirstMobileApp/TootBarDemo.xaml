@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstMobileApp.TootBarDemo">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New1" IconImageSource="hello.jpg" Clicked="ToolbarItem_Clicked" Order="Primary"></ToolbarItem>
+        <ToolbarItem Text="New2" IconImageSource="hello.jpg"  Order="Primary"></ToolbarItem>
+        <ToolbarItem Text="Item1" IconImageSource="hello1.jpg" Clicked="ToolbarItem_Clicked_1" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="Item2" IconImageSource="hello1.jpg"  Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+</ContentPage>

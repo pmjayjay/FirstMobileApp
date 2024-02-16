@@ -8,7 +8,10 @@ namespace FirstMobileApp.Models
     {
         //public int Num1 { get; set; }
         //public int Num2 { get; set; }
-
+        public Calcualtor()
+        {
+            
+        }
         public int Add(int num1, int num2)
         {
             return num1 + num2;

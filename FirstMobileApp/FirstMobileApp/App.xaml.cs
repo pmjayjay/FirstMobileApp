@@ -18,7 +18,14 @@ namespace FirstMobileApp
             //MainPage = new Assignment3();
             //MainPage = new Assignment4();
             //MainPage = new Calculator();
-            MainPage = new Cal();
+            //MainPage = new Cal();
+            //MainPage = new GridExample();
+            //MainPage = new GridExample1();
+            //MainPage = new NavigationPage(new HomePage());
+            //MainPage = new TabbedPageDemo();
+            //MainPage = new CarouselPageDemo();
+            //MainPage = new NavigationPage(new TootBarDemo());
+            MainPage  = new NavigationPage(new MasterListPage());
         }
 
         protected override void OnStart()
